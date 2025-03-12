@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+     font-family: "Petrona";
+     scrollbar-width: none;
+}
+body::-webkit-scrollbar{
+     display: none!important;
+}
+
+nav li, nav button{
+     @apply px-2 shadow-retro border border-retroRed
+}
+nav button span {
+     @apply flex items-center justify-center
+}
+.tag{
+     text-shadow: 5px 5px 0px #cb5331;
+}
+.btns button{
+     @apply px-2 shadow-retro border border-retroRed bg-retroBeige
+}
